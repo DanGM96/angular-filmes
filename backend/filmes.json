@@ -1,0 +1,55 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "admin",
+      "password": "admin"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Animação"
+    },
+    {
+      "id": 2,
+      "nome": "Drama"
+    },
+    {
+      "id": 3,
+      "nome": "Ação/Aventura"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "nome": "Homem-Aranha: No Aranhaverso",
+      "descricao": "Filmes com boa crítica"
+    },
+    {
+      "id": 3,
+      "nome": "Uma Noite de 12 Anos",
+      "descricao": "Bom pra pensar"
+    },
+    {
+      "id": 4,
+      "nome": "O Ódio que Você Semeia",
+      "descricao": "Não assisti, mas parece bom"
+    },
+    {
+      "id": "5",
+      "nome": "Vingadores",
+      "descricao": "O primeiro de uma série bilionária"
+    },
+    {
+      "id": "6",
+      "nome": "De Volta Para o Futuro",
+      "descricao": "Clássico da viagem no tempo"
+    },
+    {
+      "id": "7",
+      "nome": "Rei Leão",
+      "descricao": "Uma das melhores animações"
+    }
+  ]
+}

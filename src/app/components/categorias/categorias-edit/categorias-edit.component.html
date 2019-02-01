@@ -1,0 +1,13 @@
+<div>
+  <h1>
+    Editar Categoria
+  </h1>
+  <div>
+    <label>Id:</label>
+    <input [(ngModel)]="categoria.id" placeholder="Id" />
+    <label>Nome:</label>
+    <input [(ngModel)]="categoria.nome" placeholder="Nome" />
+  </div>
+  <br/>
+  <button (click)="updateCategoria()">Salvar</button>
+</div>

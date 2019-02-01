@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div style="text-align:center">
+
+    <h1>
+  
+      Bem vindo a {{ title }}!
+  
+    </h1>
+  
+  </div>
+  
+  <div class="topnav">
+   
+    <!-- Left-aligned links (default) -->
+    <div>
+    <a href="/filmes">Filmes</a>
+    <a href="/categorias">Categorias</a>
+    <a href="/tipo-servicos">Tipos de Servicos</a>
+    </div>
+
+    <div class="topnav-right">
+      <a href="/login" (click)="logout()">Logout</a>
+      <a href="/login">Login</a>
+    </div>
+
+  </div>
+
+  <div class="container">
+  
+    <router-outlet></router-outlet>
+  
+  </div>

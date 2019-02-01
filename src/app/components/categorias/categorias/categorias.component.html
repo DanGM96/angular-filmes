@@ -1,0 +1,14 @@
+<h1>{{titulo}}</h1>
+<button><a href="/categorias-add">Adicionar Categorias</a></button>
+<br/>
+<table id="listacat">
+  <tr>
+    <th>ID</th>
+    <th>CATEGORIA</th>
+  </tr>
+  <tr *ngFor="let categoria of categorias">
+    <td>{{categoria.id}}</td>
+    <td><a routerLink="/categorias-details/{{categoria.id}}">{{categoria.nome}}</a></td>
+  </tr>
+</table>
+<br/>

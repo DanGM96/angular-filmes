@@ -1,0 +1,10 @@
+<div *ngIf="filme">
+  <h2>Detalhes de {{filme.nome | uppercase}}</h2>
+  <div><span>Descricao: </span>{{filme.descricao}}</div>
+  <br/>
+  <div>
+    <button routerLink="/filmes-edit/{{filme.id}}">Editar Filme</button>
+    <div class="divider"></div>
+    <button (click)="deletaFilme(filme.id)">Deletar Filme</button>
+  </div>
+</div>

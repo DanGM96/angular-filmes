@@ -1,0 +1,16 @@
+<h1>{{titulo}}</h1>
+<button><a href="/filmes-add">Adicionar Filmes</a></button>
+<br/>
+<table id="lista">
+  <tr>
+    <th>ID</th>
+    <th>NOME</th>
+    <th>DESCRIÇÃO</th>
+  </tr>
+  <tr *ngFor="let filme of filmes">
+    <td>{{filme.id}}</td>
+    <td><a routerLink="/filmes-details/{{filme.id}}">{{filme.nome}}</a></td>
+    <td>{{filme.descricao}}</td>
+  </tr>
+</table>
+<br/>

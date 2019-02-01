@@ -1,0 +1,15 @@
+<div>
+  <h1>
+    Editar Filme
+  </h1>
+  <div>
+    <label>Id:</label>
+    <input [(ngModel)]="filme.id" placeholder="Id" />
+    <label>Nome:</label>
+    <input [(ngModel)]="filme.nome" placeholder="Nome" />
+    <label>Descricao:</label>
+    <input [(ngModel)]="filme.descricao" placeholder="Descricao" />
+  </div>
+  <br/>
+  <button (click)="updateFilme()">Salvar</button>
+</div>

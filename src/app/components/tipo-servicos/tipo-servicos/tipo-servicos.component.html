@@ -1,0 +1,14 @@
+<h1>{{titulo}}</h1>
+<button><a href="/tipo-servicos-add">Adicionar Tipos de Servicos</a></button>
+<br/>
+<table id="tiposerv">
+  <tr>
+    <th>CODIGO</th>
+    <th>NOME</th>
+  </tr>
+  <tr *ngFor="let tipoServico of tipoServicos">
+    <td>{{tipoServico.codigo}}</td>
+    <td><a routerLink="/tipo-servicos-details/{{tipoServico.codigo}}">{{tipoServico.nome}}</a></td>
+  </tr>
+</table>
+<br/>

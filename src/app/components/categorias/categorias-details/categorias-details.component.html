@@ -1,0 +1,9 @@
+<div *ngIf="categoria">
+  <h2>Detalhes de {{categoria.nome | uppercase}}</h2>
+  <br/>
+  <div>
+    <button><a routerLink="/categorias-edit/{{categoria.id}}">Editar Categoria</a></button>
+    <div class="divider"></div>
+    <button (click)="deletaCategoria(categoria.id)">Deletar Categoria</button>
+  </div>
+</div>

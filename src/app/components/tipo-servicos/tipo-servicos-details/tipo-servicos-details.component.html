@@ -1,0 +1,10 @@
+<div *ngIf="tipoServico">
+  <h2>Detalhes de {{tipoServico.nome | uppercase}}</h2>
+  
+  <br/>
+  <div>
+    <button routerLink="/tipo-servicos-edit/{{tipoServico.codigo}}">Editar Tipo de Servico</button>
+    <div class="divider"></div>
+    <button (click)="deletaTipoServico(tipoServico.codigo)">Deletar Tipo de Servico</button>
+  </div>
+</div>
